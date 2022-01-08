@@ -1,0 +1,88 @@
+#header {
+    
+    flex-direction: column;
+    height: 170px;
+}
+#header .logo{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 5px auto;
+}
+
+#searchBar{
+    width: 100vw;
+    text-align: center
+}
+#navigation ul{
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+}
+#navigation ul li{
+    padding: 5px 10px;
+}
+#hero-caption{
+    /* margin-top: 30px; */
+    padding: 10px 5px;
+    color: white;
+}
+#home #title{
+    text-align: center;
+    margin: 10px auto;
+}
+#hero-caption #year{
+    text-align: center;
+    font-size: 70px;
+}
+.btn-group{
+    margin: 35px 10px;
+}
+.btn-group #btn-shop{
+    padding: 3.5px 5px;
+}
+.btn-group #btn-learn{
+    padding: 3.5px 5px;
+}
+
+.service{
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 10px; */
+}
+.service::before {
+
+ height: 175px;
+}
+.service h2{
+    padding: 10px;
+}
+.product {
+    flex-direction: column;
+}
+.product .card img{
+    height: auto;
+}
+.product .card{
+    margin: 30px auto;
+
+}
+#contact{
+    /* top: -1px; */
+    height: 910px;
+}
+.contact-box input,
+ .contact-box textarea{
+    width: 65vw;
+     margin: 30px auto;
+ }
+ #btn-submit{
+    margin: 5px 10px;
+     padding: 7.5px 15px;
+ }
+ #btn-reset{
+    margin: 5px 10px;;
+    padding: 7.5px 20px;
+}
